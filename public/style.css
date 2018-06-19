@@ -12,3 +12,34 @@ body {
   height: 100vh;
   width: 100vw;
 }
+
+header {
+  display: flex;
+  position: fixed;
+  margin: 0 4em;
+  padding: 10px;
+  width: calc(100vw - 8em);
+  background-color: orange;
+  border-radius: 0 0 1em 1em;
+  z-index: 2;
+}
+
+header nav {
+  display: flex;
+}
+
+.nav-item {
+  height: 1.5em;
+  margin: 0 1.5em 0 0;
+}
+
+.nav-item a {
+  font-size: 1.3em;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.flex {
+  display: flex;
+}

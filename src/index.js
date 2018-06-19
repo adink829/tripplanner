@@ -20,4 +20,6 @@ const map = new mapboxgl.Map({
 const marker = buildMarker('activities', [-74.009151, 40.705086])
 marker.addTo(map);
 
+console.log(marker);
+
 //new mapboxgl.Marker(newMarkerDom).setLngLat([-74.009151, 40.705086]).addTo(map);
